@@ -1,0 +1,24 @@
+{
+  "name": "promise-each-async",
+  "version": "0.0.1",
+  "description": "applies a function iterator to each list item in series using promises",
+  "main": "promise-each-async.js",
+  "keywords": [
+    "async",
+    "promise",
+    "each",
+    "series"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kruemelo/promise-each-async.git"
+  },
+  "author": "kruemelo",
+  "license": "WTFPL",
+  "devDependencies": {
+    "chai": "^3.4.1"
+  },
+  "scripts": {
+    "test": "mocha ./test.js"
+  }
+}
